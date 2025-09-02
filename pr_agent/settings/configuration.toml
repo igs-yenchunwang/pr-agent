@@ -22,6 +22,11 @@ ai_disclaimer=""  # Pro feature, full text for the AI disclaimer
 output_relevant_configurations=false
 large_patch_policy = "clip" # "clip", "skip"
 is_auto_command=false
+extra_instructions = "用繁體中文回答"
+language = "zh-TW"
+
+[pr_agent]
+language = "zh-TW"
 
 [pr_reviewer] # /review #
 # enable/disable features
@@ -39,7 +44,7 @@ inline_code_comments = false
 ask_and_reflect=false
 #automatic_review=true
 persistent_comment=true
-extra_instructions = "answer in zh-tw"
+extra_instructions = "用繁體中文回答"
 final_update_message = true
 # review labels
 enable_review_labels_security=true
@@ -59,7 +64,7 @@ publish_labels=true
 add_original_user_description=true
 generate_ai_title=false
 use_bullet_points=true
-extra_instructions = "answer in zh-tw"
+extra_instructions = "用繁體中文回答"
 enable_pr_type=true
 final_update_message = true
 enable_help_text=false
@@ -89,7 +94,7 @@ enable_help_text=false
 max_context_tokens=10000
 num_code_suggestions=4
 commitable_code_suggestions = false
-extra_instructions = "answer in zh-tw"
+extra_instructions = "用繁體中文回答"
 rank_suggestions = false
 enable_help_text=false
 persistent_comment=false
@@ -177,6 +182,8 @@ app_name = "pr-agent"
 # auto_review = true    # set as env var in .github/workflows/pr-agent.yaml
 # auto_describe = true  # set as env var in .github/workflows/pr-agent.yaml
 # auto_improve = true   # set as env var in .github/workflows/pr-agent.yaml
+extra_instructions = "用繁體中文回答"
+language = "zh-tw"
 
 [github_app]
 # these toggles allows running the github app from custom deployments
