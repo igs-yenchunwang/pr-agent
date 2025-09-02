@@ -101,3 +101,4 @@ Significant documentation updates (see [Installation Guide](https://github.com/C
 ### Fixed
 - Protection against no code suggestions generated.
 - Resilience to repositories where the languages cannot be automatically detected.
+test123
